@@ -42,6 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2474339806395190420}
   - component: {fileID: 2474339806395190419}
+  - component: {fileID: 3649586871937375475}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -124,6 +125,60 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &3649586871937375475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2474339806395190421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c54ebae531d2a4d9b24f4a8eb5cc2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transform: {fileID: 2474339806395190420}
+  _rectTrans: {fileID: 0}
+  _duration: 6
+  _isRepeating: 1
+  _RotA: {x: 30, y: -36, z: 0}
+  _RotB: {x: 30, y: 36, z: 0}
+  _curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: -0.0042419434
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.46041662
+      value: 0.7863834
+      inSlope: 1.4997656
+      outSlope: 1.4997656
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.99575806
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _light: {fileID: 2474339806395190419}
+  _intensityHighPoint: 1.5
+  _intensityLowPoint: 1
 --- !u!1 &2474339806698511123
 GameObject:
   m_ObjectHideFlags: 0
