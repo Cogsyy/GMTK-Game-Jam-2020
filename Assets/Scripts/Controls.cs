@@ -11,6 +11,8 @@ using System;
 
 public abstract class Controls : MonoBehaviour
 {
+    [SerializeField] private string _commandName;
+
     public bool active;
 
     public bool HaveControl { get; private set; }
@@ -21,5 +23,10 @@ public abstract class Controls : MonoBehaviour
     {
         HaveControl = hasControl;
         OnControlsChanged?.Invoke(hasControl);//remove or set red in the list of controls?
+    }
+
+    public string GetName()
+    {
+        return _commandName;
     }
 }
