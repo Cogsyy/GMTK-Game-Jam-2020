@@ -542,10 +542,10 @@ public class BaseCRTEffect : MonoBehaviour {
 	protected Vector4 colorTransform;
 
 	protected void InternalPreRender() {
-		var newCameraTarget = CreateCameraTexture(cameraTarget);
+		RenderTexture newCameraTarget = CreateCameraTexture(cameraTarget);
 		
 		oldCameraTarget 			= mainCamera.targetTexture;
-		mainCamera.targetTexture	= newCameraTarget;
+		//mainCamera.targetTexture	= newCameraTarget;
 
 		if(newCameraTarget != cameraTarget) {
 			cameraTarget = newCameraTarget;
@@ -569,7 +569,7 @@ public class BaseCRTEffect : MonoBehaviour {
 
 	void OnPostRender() {
 		if(mainCamera.targetTexture != oldCameraTarget) {
-			var targetTexture = mainCamera.targetTexture;
+			RenderTexture targetTexture = mainCamera.targetTexture;
 			mainCamera.targetTexture = oldCameraTarget;
 
 			OnCameraPostRender(targetTexture);
