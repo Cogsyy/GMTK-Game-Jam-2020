@@ -35,6 +35,9 @@ TextureImporter:
   - first:
       213: 9222232626724259457
     second: Props_Kitchen_4
+  - first:
+      213: 856773554234707054
+    second: Props_Kitchen_CoffeeCup
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -78,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -147,12 +150,12 @@ TextureImporter:
       name: Props_Kitchen_Chair
       rect:
         serializedVersion: 2
-        x: 8
+        x: 1
         y: 12
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 6
+        height: 9
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.4300213}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,8 +175,8 @@ TextureImporter:
         y: 12
         width: 12
         height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.63359565}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,8 +238,8 @@ TextureImporter:
         y: 0
         width: 11
         height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4635641, y: 0.26239043}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,6 +268,27 @@ TextureImporter:
       bones: []
       spriteID: 9daf2ef6ebbc83820800000000000000
       internalID: 2898290378994285273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Kitchen_CoffeeCup
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 28
+        width: 3
+        height: 4
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ccb19120fd3eb00800000000000000
+      internalID: 856773554234707054
       vertices: []
       indices: 
       edges: []
