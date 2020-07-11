@@ -10,10 +10,16 @@ public class CommandTyper : MonoBehaviour
 {
     [SerializeField] private TMP_InputField _inputField;
     [SerializeField] private CommandsList _commandsList;
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip _lowBeep;
+    [SerializeField] private AudioClip _highBeep;
+    [SerializeField] private AudioClip _twoToneBeep;
 
     private string _currentTextValue = "";
 
     private bool _blockCommands = false;
+
+    private bool _isWaitingForConfirmation;
 
     public void Event_OnValueChanged()//fired from the command's tmp input field
     {
@@ -82,19 +88,26 @@ public class CommandTyper : MonoBehaviour
         {
             _commandsList.DeactivateAllCommands();
             commandedControl.TryActivate();
+            _audioSource.PlayOneShot(_highBeep);
         }
         else if (command.ToLower() == "/stop")
         {
             _commandsList.DeactivateAllCommands();
+            _audioSource.PlayOneShot(_twoToneBeep);
         }
         else if (command.ToLower() == "/reboot")//very temp
         {
             RebootCommand();
         }
+        else if (command.ToLower() == "/fuck")
+        {
+            _inputField.text += "Outdated human command, slow monkeys bred in tubes filled with low grade breltonium\n";
+        }
         else
         {
-            string unknownCommandError = "Error, unknown command " + command + "\n";
+            string unknownCommandError = "Error, dumb human does not understad [" + command + "] command\n";
             _inputField.text += unknownCommandError;
+            _audioSource.PlayOneShot(_lowBeep);
         }
     }
 
@@ -107,19 +120,21 @@ public class CommandTyper : MonoBehaviour
     {
         _blockCommands = true;
 
-        string rebootingText = "Started reboot routines...";
+        string rebootingText = "Started human reboot routines...\n";
         _inputField.text += rebootingText;
 
         float t = 0;
         float iterations = 4;
 
         for (int i = 0; i < iterations; i++)
-        {    
+        {
+            _audioSource.PlayOneShot(_lowBeep);
+            _inputField.text += ((i / iterations) * 100).ToString() + "% complete" + "\n";
             yield return new WaitForSeconds(1);
-            _inputField.text += "\n" + ((i / iterations) * 100).ToString() + "% complete";
         }
 
-        _inputField.text += "\nReboot successful\n";
+        _audioSource.PlayOneShot(_highBeep);
+        _inputField.text += "Reboot of small human brain successful\n";
 
         _blockCommands = false;
     }

@@ -12,6 +12,7 @@ using System;
 public abstract class Controls : MonoBehaviour
 {
     [SerializeField] private string _commandName;
+    [SerializeField] private AudioClip _audioClip;
 
     protected bool active;
 
@@ -22,7 +23,7 @@ public abstract class Controls : MonoBehaviour
     private void SetHaveControl(bool hasControl)
     {
         HaveControl = hasControl;
-        OnControlsChanged?.Invoke(hasControl);//remove or set red in the list of controls?
+        OnControlsChanged?.Invoke(hasControl);//Red = Lost Control, White = Not in use, Green = Active (not implemented yet)
     }
 
     public string GetName()
