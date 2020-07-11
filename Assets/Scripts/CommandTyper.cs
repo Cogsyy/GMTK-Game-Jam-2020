@@ -83,7 +83,7 @@ public class CommandTyper : MonoBehaviour
     {
         if (_blockCommands)
             return;
-
+ 
         if (_commandsList.CommandExists(command, out Controls commandedControl))
         {
             _commandsList.DeactivateAllCommands();
