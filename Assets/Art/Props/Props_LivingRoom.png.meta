@@ -1,40 +1,13 @@
 fileFormatVersion: 2
-guid: b4b135a217962fc40a6100d5a85c5033
+guid: 45578dcd1d179794ab35432c653762ec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8939667059253145397
-    second: Props_Kitchen_Chair
+      213: 8278609959954006528
+    second: Props_LivingRoom_Tv
   - first:
-      213: 8794059640987737832
-    second: Props_Kitchen_Table
-  - first:
-      213: -6695629318027880480
-    second: Props_Kitchen_Oven
-  - first:
-      213: -7500571564689937311
-    second: Props_Kitchen_Counter
-  - first:
-      213: -6411988262088836058
-    second: Props_Kitchen_Fridge
-  - first:
-      213: 2898290378994285273
-    second: Props_Kitchen_Wiskey
-  - first:
-      213: 6363363719651529908
-    second: Props_Kitchen_0
-  - first:
-      213: -5800628752261835566
-    second: Props_Kitchen_1
-  - first:
-      213: 6866542706770500066
-    second: Props_Kitchen_2
-  - first:
-      213: 8703473028315362211
-    second: Props_Kitchen_3
-  - first:
-      213: 9222232626724259457
-    second: Props_Kitchen_4
+      213: 1320518434967658487
+    second: Props_LivingRoom_Couch
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -144,127 +117,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Props_Kitchen_Chair
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 12
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc094fa8c2cefe380800000000000000
-      internalID: -8939667059253145397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Kitchen_Table
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 12
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ee5caa86a6ca0a70800000000000000
-      internalID: 8794059640987737832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Kitchen_Oven
+      name: Props_LivingRoom_Tv
       rect:
         serializedVersion: 2
         x: 1
-        y: 0
-        width: 8
-        height: 11
+        y: 21
+        width: 9
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e7d1473c985413a0800000000000000
-      internalID: -6695629318027880480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Kitchen_Counter
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 0
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16ca242d6ed98e790800000000000000
-      internalID: -7500571564689937311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Kitchen_Fridge
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 0
-        width: 11
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62c7836d5aa0407a0800000000000000
-      internalID: -6411988262088836058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Kitchen_Wiskey
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 25
-        width: 3
-        height: 6
-      alignment: 9
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9daf2ef6ebbc83820800000000000000
-      internalID: 2898290378994285273
+      spriteID: 002c11985e783e270800000000000000
+      internalID: 8278609959954006528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_LivingRoom_Couch
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 21
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff1a9b258c635210800000000000000
+      internalID: 1320518434967658487
       vertices: []
       indices: 
       edges: []

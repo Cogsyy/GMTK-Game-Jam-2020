@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: 27866080553a868428778ac1bdb04c5f
+guid: afa60e5a4d3a5254ab5763aac807925f
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -4930308807532108230
-    second: Props_Bathroom_Sink
-  - first:
-      213: -148127079349622155
-    second: Props_Bathroom_Mirror
-  - first:
-      213: -3266477389608981186
-    second: Props_Bathroom_Shower
-  - first:
-      213: 6850825231066537381
-    second: Props_Bathroom_Toilet
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -52,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,91 +109,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Props_Bathroom_Sink
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a36a11ee246049bb0800000000000000
-      internalID: -4930308807532108230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Bathroom_Mirror
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 12
-        width: 5
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57aefb5c43fb1fdf0800000000000000
-      internalID: -148127079349622155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Bathroom_Shower
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 0
-        width: 11
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3de285ee142ba2d0800000000000000
-      internalID: -3266477389608981186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Bathroom_Toilet
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 0
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ad110c1045031f50800000000000000
-      internalID: 6850825231066537381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
