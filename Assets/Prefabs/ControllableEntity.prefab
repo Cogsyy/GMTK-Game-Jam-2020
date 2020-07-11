@@ -95,9 +95,10 @@ GameObject:
   - component: {fileID: 6423923554173604093}
   - component: {fileID: 6423923554173604094}
   - component: {fileID: 6423923554173604095}
+  - component: {fileID: 1562031591925059414}
   m_Layer: 0
   m_Name: ControllableEntity
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -142,8 +143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: up
-  active: 0
+  _commandName: /moveup
+  _audioClip: {fileID: 0}
   _direction: 1
 --- !u!114 &6423923554173604093
 MonoBehaviour:
@@ -157,8 +158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: down
-  active: 0
+  _commandName: /movedown
+  _audioClip: {fileID: 0}
   _direction: 2
 --- !u!114 &6423923554173604094
 MonoBehaviour:
@@ -172,8 +173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: left
-  active: 0
+  _commandName: /moveleft
+  _audioClip: {fileID: 0}
   _direction: 3
 --- !u!114 &6423923554173604095
 MonoBehaviour:
@@ -187,6 +188,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: right
-  active: 0
+  _commandName: /moveright
+  _audioClip: {fileID: 0}
   _direction: 4
+--- !u!114 &1562031591925059414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6423923554173604089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc603999a1ca02449972053fdac1589, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _commandName: /open
+  _audioClip: {fileID: 8300000, guid: e25b43ebfebce804fb167c20fd2d2753, type: 3}
+  _verb: 1

@@ -87,8 +87,15 @@ public class CommandTyper : MonoBehaviour
         if (_commandsList.CommandExists(command, out Controls commandedControl))
         {
             _commandsList.DeactivateAllCommands();
-            commandedControl.TryActivate();
-            _audioSource.PlayOneShot(_highBeep);
+            bool activatedSuccess = commandedControl.TryActivate();
+            if (activatedSuccess)
+            {
+                _audioSource.PlayOneShot(_highBeep);
+            }
+            else
+            {
+                _inputField.text += "Unable to execute " + command + ", human is resisting, use /reboot " + command + " to regain dominance";
+            }
         }
         else if (command.ToLower() == "/stop")
         {
@@ -101,7 +108,7 @@ public class CommandTyper : MonoBehaviour
         }
         else if (command.ToLower() == "/fuck")
         {
-            _inputField.text += "Outdated human command, slow monkeys bred in tubes filled with low grade breltonium\n";
+            _inputField.text += "Outdated human command, slow monkeys bred in tubes filled with low grade breltonium\n";//<-- LMAO
         }
         else
         {

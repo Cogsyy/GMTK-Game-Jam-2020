@@ -18,12 +18,12 @@ public abstract class Controls : MonoBehaviour
 
     public bool HaveControl { get; private set; }
 
-    public event Action<bool> OnControlsChanged;
+    public static event Action<bool, string> OnControlsChanged;
 
-    private void SetHaveControl(bool hasControl)
+    public void SetHaveControl(bool hasControl)
     {
         HaveControl = hasControl;
-        OnControlsChanged?.Invoke(hasControl);//Red = Lost Control, White = Not in use, Green = Active (not implemented yet)
+        OnControlsChanged?.Invoke(hasControl, _commandName);//Red = Lost Control, White = Not in use, Green = Active (not implemented yet)
     }
 
     public string GetName()
@@ -31,12 +31,15 @@ public abstract class Controls : MonoBehaviour
         return _commandName;
     }
 
-    public void TryActivate()
+    public bool TryActivate()
     {
-        if (CanActivate())
+        bool canActivate = CanActivate();
+        if (canActivate)
         {
             active = true;
         }
+
+        return canActivate;
     }
 
     public void Deactivate()
