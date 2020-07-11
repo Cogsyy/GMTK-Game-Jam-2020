@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class ControllableEntity : MonoBehaviour
 {
+    [SerializeField] private CommandsList _commandsList;
+
     private List<DirectionalControl> _directionalControls;
     
     private void Start()
@@ -15,6 +17,7 @@ public class ControllableEntity : MonoBehaviour
     private void FindControls()
     {
         _directionalControls = GetComponents<DirectionalControl>().ToList();
+        _commandsList.InitCommandsList(_directionalControls.Cast<Controls>().ToList());
     }
 
     private void Update()

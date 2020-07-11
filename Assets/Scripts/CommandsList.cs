@@ -27,8 +27,17 @@ public class CommandsList : MonoBehaviour
         }
     }
 
-    public bool CommandExists(string name)
+    public bool CommandExists(string name, out Controls command)
     {
-        return _knownControls.Find(command => command.GetName().ToLower() == name.ToLower()) != null;
+        command = _knownControls.Find(commandControl => commandControl.GetName().ToLower() == name.ToLower());
+        return command != null;
+    }
+
+    public void DeactivateAllCommands()
+    {
+        for (int i = 0; i < _knownControls.Count; i++)
+        {
+            _knownControls[i].Deactivate();
+        }
     }
 }

@@ -129,6 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c8ee499a7c953b44985c1e7e5304731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _commandsList: {fileID: 0}
 --- !u!114 &6423923554173604092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: 
+  _commandName: up
   active: 0
   _direction: 1
 --- !u!114 &6423923554173604093
@@ -156,7 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: 
+  _commandName: down
   active: 0
   _direction: 2
 --- !u!114 &6423923554173604094
@@ -171,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: 
+  _commandName: left
   active: 0
   _direction: 3
 --- !u!114 &6423923554173604095
@@ -186,6 +187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: 
+  _commandName: right
   active: 0
   _direction: 4

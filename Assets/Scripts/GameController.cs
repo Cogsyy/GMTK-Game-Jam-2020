@@ -8,7 +8,7 @@ public class GameController : Singleton<GameController>
 
     private void Start()
     {
-        
+
     }
 
     private void Update()

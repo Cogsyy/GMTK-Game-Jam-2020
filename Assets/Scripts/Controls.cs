@@ -13,7 +13,7 @@ public abstract class Controls : MonoBehaviour
 {
     [SerializeField] private string _commandName;
 
-    public bool active;
+    protected bool active;
 
     public bool HaveControl { get; private set; }
 
@@ -28,5 +28,23 @@ public abstract class Controls : MonoBehaviour
     public string GetName()
     {
         return _commandName;
+    }
+
+    public void TryActivate()
+    {
+        if (CanActivate())
+        {
+            active = true;
+        }
+    }
+
+    public void Deactivate()
+    {
+        active = false;
+    }
+
+    protected virtual bool CanActivate()
+    {
+        return true;
     }
 }
