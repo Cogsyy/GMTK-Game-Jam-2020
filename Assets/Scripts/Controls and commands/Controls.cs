@@ -30,6 +30,7 @@ public abstract class Controls : MonoBehaviour
     public void SetHaveControl(bool hasControl)
     {
         HaveControl = hasControl;
+        Deactivate();
         OnControlsChanged?.Invoke(hasControl, _commandName);//Red = Lost Control, White = Not in use, Green = Active (not implemented yet)
     }
 
