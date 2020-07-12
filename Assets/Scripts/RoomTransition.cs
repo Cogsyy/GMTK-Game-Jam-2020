@@ -15,16 +15,31 @@ public class RoomTransition : MonoBehaviour
         _collider.enabled = true;
     }
 
-    /*
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
-            _collider.enabled = false;
-            _transitionToRoom.SetActive(true);
-            _controllableEntity.position = _transitionSpawnPoint.position;
-            _activeRoom.SetActive(false);
+            GameController.Instance.touchingTransition = Transition;
         }
     }
-    */
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            GameController.Instance.touchingTransition = null;
+        }
+    }
+
+    private void Transition()
+    {
+        _collider.enabled = false;
+        _transitionToRoom.SetActive(true);
+        _activeRoom.SetActive(false);
+
+        if (_transitionSpawnPoint != null)
+        {
+            _controllableEntity.position = _transitionSpawnPoint.position;
+        }
+    }
 }

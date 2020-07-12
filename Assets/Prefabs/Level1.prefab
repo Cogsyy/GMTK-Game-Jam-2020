@@ -8880,7 +8880,7 @@ MonoBehaviour:
   _controllableEntity: {fileID: 0}
   _transitionSpawnPoint: {fileID: 0}
   _activeRoom: {fileID: 2631325685135311417}
-  _transitionToRoom: {fileID: 0}
+  _transitionToRoom: {fileID: 1008734864388228477}
   _collider: {fileID: 6467438533227564507}
 --- !u!1 &8279476081423153546
 GameObject:
