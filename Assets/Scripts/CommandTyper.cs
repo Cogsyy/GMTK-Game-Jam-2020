@@ -111,7 +111,7 @@ public class CommandTyper : Singleton<CommandTyper>
         }
         else
         {
-            string unknownCommandError = "Error, dumb human does not understad [" + commandName + "] command\n";
+            string unknownCommandError = "Error, dumb human does not understand [" + commandName + "] command\n";
             _inputField.text += unknownCommandError;
             _audioSource.PlayOneShot(_lowBeep);
         }
