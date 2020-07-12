@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Linq;
 
 public class Level5 : LevelBase
 {
@@ -26,5 +27,16 @@ public class Level5 : LevelBase
         objectives.Add(_dog);
         objectives.Add(_praiseControl);
         objectives.Add(_bed);
+    }
+
+    protected override void OnObjectiveCompleted(int objectivesComplete)
+    {
+        _currentObjectiveNameIndex++;
+        if (_currentObjectiveNameIndex < _objectiveTexts.Count())
+        {
+            _taskText.text = _objectiveTexts[_currentObjectiveNameIndex];
+        }
+
+        base.OnObjectiveCompleted(objectivesComplete);
     }
 }

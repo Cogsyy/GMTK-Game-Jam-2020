@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7818391980132606675}
   - component: {fileID: 5848722179801441170}
   - component: {fileID: 7277236364532633545}
-  - component: {fileID: 7449808153517405219}
+  - component: {fileID: 1441278660583963018}
   m_Layer: 0
   m_Name: Dog_Prefab
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4083697857486086804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1265028, y: 0.90074366, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -130,7 +130,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.25}
   m_EdgeRadius: 0
---- !u!114 &7449808153517405219
+--- !u!114 &1441278660583963018
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,9 +139,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4083697857486086804}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd6520bc27b483441956bc8eb06ee949, type: 3}
+  m_Script: {fileID: 11500000, guid: 103b0db6bb73e6b46a54db3644aac206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _interactFx: {fileID: 0}
   _duration: 4
   _errorMessage: Human already petting filth mutt\n
+  _level5Dog: 0
+  _barks: {fileID: 0}

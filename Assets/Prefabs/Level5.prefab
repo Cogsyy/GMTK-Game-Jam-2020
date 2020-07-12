@@ -5505,7 +5505,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 3
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -5529,11 +5529,11 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 8278609959954006528, guid: 45578dcd1d179794ab35432c653762ec,
       type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 8794059640987737832, guid: b4b135a217962fc40a6100d5a85c5033,
       type: 3}
@@ -6890,7 +6890,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7040220231884447497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.2, y: -0.8, z: -1.0292969}
+  m_LocalPosition: {x: 7, y: -0.8, z: -1.0292969}
   m_LocalScale: {x: 8.188874, y: 3.0530179, z: 1}
   m_Children: []
   m_Father: {fileID: 3788878663759844410}
@@ -9058,7 +9058,7 @@ MonoBehaviour:
   - Prepare for shutdown at bed
   _whiskey: {fileID: 3119350962472563929}
   _tv: {fileID: 9217809354943754479}
-  _dog: {fileID: 5038352394032494185}
+  _dog: {fileID: 3929575992431492032}
   _praiseControl: {fileID: 0}
   _bed: {fileID: 6224110449288788092}
 --- !u!1 &8138540858335320554
@@ -12333,6 +12333,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9130164734755370971}
     m_Modifications:
+    - target: {fileID: 1441278660583963018, guid: e31b141b35782dc40b59c7a64f96a13c,
+        type: 3}
+      propertyPath: _level5Dog
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4083697857486086804, guid: e31b141b35782dc40b59c7a64f96a13c,
         type: 3}
       propertyPath: m_Name
@@ -12361,12 +12366,12 @@ PrefabInstance:
     - target: {fileID: 8166791775635710363, guid: e31b141b35782dc40b59c7a64f96a13c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.41
+      value: -6.48
       objectReference: {fileID: 0}
     - target: {fileID: 8166791775635710363, guid: e31b141b35782dc40b59c7a64f96a13c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.28
+      value: -2.77
       objectReference: {fileID: 0}
     - target: {fileID: 8166791775635710363, guid: e31b141b35782dc40b59c7a64f96a13c,
         type: 3}
@@ -12376,17 +12381,17 @@ PrefabInstance:
     - target: {fileID: 8166791775635710363, guid: e31b141b35782dc40b59c7a64f96a13c,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8166791775635710363, guid: e31b141b35782dc40b59c7a64f96a13c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8166791775635710363, guid: e31b141b35782dc40b59c7a64f96a13c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8166791775635710363, guid: e31b141b35782dc40b59c7a64f96a13c,
         type: 3}
@@ -12421,15 +12426,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2488480435973980746}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5038352394032494185 stripped
+--- !u!114 &3929575992431492032 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7449808153517405219, guid: e31b141b35782dc40b59c7a64f96a13c,
+  m_CorrespondingSourceObject: {fileID: 1441278660583963018, guid: e31b141b35782dc40b59c7a64f96a13c,
     type: 3}
   m_PrefabInstance: {fileID: 2488480435973980746}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd6520bc27b483441956bc8eb06ee949, type: 3}
+  m_Script: {fileID: 11500000, guid: 103b0db6bb73e6b46a54db3644aac206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
