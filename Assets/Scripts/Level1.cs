@@ -48,8 +48,8 @@ public class Level1 : LevelBase
 
     protected override void OnObjectiveCompleted(int objectivesComplete)
     {
-        _taskText.text = _objectiveTexts[_currentObjectiveNameIndex];
         _currentObjectiveNameIndex++;
+        _taskText.text = _objectiveTexts[_currentObjectiveNameIndex];
         base.OnObjectiveCompleted(objectivesComplete);
         if (objectivesComplete == 1)
         {

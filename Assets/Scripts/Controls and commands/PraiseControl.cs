@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PraiseControl : Controls, IObjective
 {
+    private static bool _praised = false;
+
     protected override void Execute(params string[] parameters)
     {
         base.Execute(parameters);
@@ -17,10 +19,11 @@ public class PraiseControl : Controls, IObjective
         yield return new WaitForSeconds(2f);
         CommandTyper.Instance.PlayPraiseAnim(false);
         Deactivate();
+        _praised = true;
     }
 
     public bool Triggered()
     {
-        return true;
+        return _praised;
     }
 }
