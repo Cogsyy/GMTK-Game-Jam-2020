@@ -4003,6 +4003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc4ef99387106c44e93d5c8b918a2b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interactFx: {fileID: 0}
   _controllableEntity: {fileID: 0}
   _transitionSpawnPoint: {fileID: 0}
   _activeRoom: {fileID: 6248018292458111106}
@@ -4388,6 +4389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc4ef99387106c44e93d5c8b918a2b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interactFx: {fileID: 0}
   _controllableEntity: {fileID: 0}
   _transitionSpawnPoint: {fileID: 5954502150897957542}
   _activeRoom: {fileID: 9209452562014029766}
@@ -7086,7 +7088,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.51775545, g: 0.5419429, b: 0.6132076, a: 1}
   m_Origin: {x: -10, y: -4, z: 0}
   m_Size: {x: 16, y: 10, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -7879,6 +7881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc4ef99387106c44e93d5c8b918a2b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interactFx: {fileID: 0}
   _controllableEntity: {fileID: 0}
   _transitionSpawnPoint: {fileID: 4393839036011660705}
   _activeRoom: {fileID: 9209452562014029766}
@@ -8006,6 +8009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc4ef99387106c44e93d5c8b918a2b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interactFx: {fileID: 0}
   _controllableEntity: {fileID: 0}
   _transitionSpawnPoint: {fileID: 161044265124706158}
   _activeRoom: {fileID: 2079456664165139398}
@@ -8492,6 +8496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc4ef99387106c44e93d5c8b918a2b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interactFx: {fileID: 0}
   _controllableEntity: {fileID: 0}
   _transitionSpawnPoint: {fileID: 0}
   _activeRoom: {fileID: 6248018292458111106}
@@ -9398,7 +9403,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.51775545, g: 0.5419429, b: 0.6132076, a: 1}
   m_Origin: {x: -10, y: 0, z: 0}
   m_Size: {x: 16, y: 6, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
