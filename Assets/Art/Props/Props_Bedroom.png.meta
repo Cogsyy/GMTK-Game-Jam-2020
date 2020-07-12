@@ -14,6 +14,24 @@ TextureImporter:
   - first:
       213: 4099644611506453522
     second: Props_Bedroom_Lamp
+  - first:
+      213: 7150167739890521571
+    second: Props_Bedroom_Perfume2
+  - first:
+      213: 2184097522727789460
+    second: Props_Bedroom_Picture
+  - first:
+      213: -7804368568267704274
+    second: Props_Bedroom_Dresser2
+  - first:
+      213: 1313129784855330768
+    second: Props_Bedroom_Lamp2
+  - first:
+      213: -7658963897323427515
+    second: Props_Bedroom_AlarmClock
+  - first:
+      213: -8544664275060049127
+    second: Props_Bedroom_Perfume1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -131,7 +149,7 @@ TextureImporter:
         width: 16
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,7 +170,7 @@ TextureImporter:
         width: 7
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,7 +191,7 @@ TextureImporter:
         width: 7
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,7 +212,7 @@ TextureImporter:
         width: 5
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,6 +220,132 @@ TextureImporter:
       bones: []
       spriteID: 21cbf26ad0dd4e830800000000000000
       internalID: 4099644611506453522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Bedroom_Perfume2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5d1ac1daf7a3360800000000000000
+      internalID: 7150167739890521571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Bedroom_Picture
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493200500297f4e10800000000000000
+      internalID: 2184097522727789460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Bedroom_Dresser2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 13
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28fd20f22051b390800000000000000
+      internalID: -7804368568267704274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Bedroom_Lamp2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df7942059c293210800000000000000
+      internalID: 1313129784855330768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Bedroom_AlarmClock
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 28
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549ee701ae4e5b590800000000000000
+      internalID: -7658963897323427515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Bedroom_Perfume1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b33180d114b6980800000000000000
+      internalID: -8544664275060049127
       vertices: []
       indices: 
       edges: []
