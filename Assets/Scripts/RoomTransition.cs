@@ -5,6 +5,7 @@ using UnityEngine;
 public class RoomTransition : BaseObject
 {
     [SerializeField] private Transform _controllableEntity;
+    private Transform _humanObject;
     [SerializeField] private Transform _transitionSpawnPoint;
     [SerializeField] private GameObject _activeRoom;
     [SerializeField] private GameObject _transitionToRoom;
@@ -33,6 +34,7 @@ public class RoomTransition : BaseObject
 
     private void Transition()
     {
+        StaticTrigger.Instance.TriggerStaticTransition();
         _collider.enabled = false;
         _transitionToRoom.SetActive(true);
         _activeRoom.SetActive(false);
@@ -40,6 +42,7 @@ public class RoomTransition : BaseObject
         if (_transitionSpawnPoint != null)
         {
             _controllableEntity.position = _transitionSpawnPoint.position;
+            _controllableEntity.GetChild(0).localPosition = Vector3.zero;
         }
     }
 

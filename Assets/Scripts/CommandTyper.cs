@@ -13,6 +13,7 @@ public class CommandTyper : Singleton<CommandTyper>
     [SerializeField] private AudioClip _lowBeep;
     [SerializeField] private AudioClip _highBeep;
     [SerializeField] private AudioClip _twoToneBeep;
+    [SerializeField] private Animator _humanAnim;
 
     private string _currentTextValue = "";
 
@@ -87,7 +88,7 @@ public class CommandTyper : Singleton<CommandTyper>
         string commandName = words[0];
         words.RemoveAt(0);
 
-        if (CommandsList.Instance.CommandExists(commandName, out Controls commandedControl))
+        if (CommandsList.Instance.CommandExists(commandName, out Controls commandedControl) && !_isWaitingForConfirmation)
         {
             if (commandedControl.TryActivate(out string errorMessage, words.ToArray()))
             {
@@ -102,11 +103,34 @@ public class CommandTyper : Singleton<CommandTyper>
         {
             _inputField.text += "Outdated human command, slow monkeys bred in tubes filled with low grade breltonium\n";//<-- LMAO
         }
+        else if(commandName.ToLower() == "/removechip")
+        {
+            _inputField.text += "Give human their freedom with the sweet release of death? (/Yes, /No)\n";
+            _blockCommands = true;
+            _isWaitingForConfirmation = true;
+        }
         else
         {
             string unknownCommandError = "Error, dumb human does not understad [" + commandName + "] command\n";
             _inputField.text += unknownCommandError;
             _audioSource.PlayOneShot(_lowBeep);
+        }
+
+        if(_isWaitingForConfirmation)
+        {
+            if (commandName.ToLower() == "/yes")
+            {
+                _inputField.text += "Enjoy your choice...meat balloon.\n";
+                StartCoroutine(CloseTitleRoutine());
+            }
+
+            if (commandName.ToLower() == "/no")
+            {
+                _inputField.text += "Back to your routine methane engine.\n";
+                _blockCommands = false;
+                _isWaitingForConfirmation = false;
+            }
+
         }
     }
 
@@ -140,4 +164,22 @@ public class CommandTyper : Singleton<CommandTyper>
             _audioSource.PlayOneShot(clip);
         }
     }
+
+    public void PlayPraiseAnim(bool status)
+    {
+        _humanAnim.SetBool("isPraising", status);
+    }
+
+    private IEnumerator CloseTitleRoutine()
+    {
+        yield return new WaitForSeconds(2);
+        StaticTrigger.Instance.TriggerStaticGameClose();
+        yield return new WaitForSeconds(2);
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+        Application.Quit();
+
+    }
+
 }

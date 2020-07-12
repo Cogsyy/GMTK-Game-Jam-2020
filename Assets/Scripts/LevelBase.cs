@@ -22,7 +22,7 @@ public class LevelBase : MonoBehaviour
                 }
             }
         }
-
+        
         if (triggerCount >= objectives.Count)
         {
             OnCompleteLevel();
@@ -31,7 +31,7 @@ public class LevelBase : MonoBehaviour
 
     protected virtual void OnObjectiveCompleted(int objectivesComplete)
     {
-
+        AudioController.Instance.PlayTaskComplete();
     }
 
     protected virtual void OnCompleteLevel()

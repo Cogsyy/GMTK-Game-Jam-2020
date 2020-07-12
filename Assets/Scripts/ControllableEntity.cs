@@ -3,10 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using TMPro;
 
 public class ControllableEntity : MonoBehaviour
 {
     [SerializeField] private LoadingBar _loadingBar;
+    [SerializeField] private SpriteRenderer _humanSpriteRenderer;
 
     private List<DirectionalControl> _directionalControls;
 
@@ -56,6 +58,11 @@ public class ControllableEntity : MonoBehaviour
         {
             newDelta += _directionalControls[i].GetMoveDelta();
         }
+
+        if(newDelta.x > 0)
+            _humanSpriteRenderer.flipX = false;
+        if (newDelta.x < 0)
+            _humanSpriteRenderer.flipX = true;
 
         transform.position += newDelta;
     }

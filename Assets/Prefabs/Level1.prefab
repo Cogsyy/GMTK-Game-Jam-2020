@@ -743,7 +743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5235454242438015173}
   - component: {fileID: 9036659905333362061}
-  - component: {fileID: 3875317775364825281}
+  - component: {fileID: 3056801613686481526}
   m_Layer: 0
   m_Name: Collider1 (8)
   m_TagString: Untagged
@@ -803,7 +803,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -815,7 +815,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3875317775364825281
+--- !u!61 &3056801613686481526
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -839,7 +839,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &600084477129649073
 GameObject:
@@ -2208,7 +2208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2109580187265338213}
   - component: {fileID: 6397138585227387993}
-  - component: {fileID: 9179026568527295650}
+  - component: {fileID: 7908040571746292222}
   m_Layer: 0
   m_Name: Collider1 (9)
   m_TagString: Untagged
@@ -2268,7 +2268,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -2280,7 +2280,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &9179026568527295650
+--- !u!61 &7908040571746292222
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2304,7 +2304,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &925647232198339845
 GameObject:
@@ -2316,7 +2316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1399717368203235415}
   - component: {fileID: 997799306832660693}
-  - component: {fileID: 7153292383265048062}
+  - component: {fileID: 2156036561117002913}
   m_Layer: 0
   m_Name: Collider1
   m_TagString: Untagged
@@ -2376,7 +2376,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -2388,7 +2388,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7153292383265048062
+--- !u!61 &2156036561117002913
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2412,7 +2412,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &1008734864388228477
 GameObject:
@@ -2489,7 +2489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 810554170849185656}
   - component: {fileID: 3472176857189826733}
-  - component: {fileID: 8952550446389632834}
+  - component: {fileID: 3158629759183968393}
   m_Layer: 0
   m_Name: Collider1 (8)
   m_TagString: Untagged
@@ -2549,7 +2549,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -2561,7 +2561,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8952550446389632834
+--- !u!61 &3158629759183968393
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2585,7 +2585,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &1455857401497862818
 GameObject:
@@ -4204,7 +4204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4005610838812294845}
   - component: {fileID: 47121024095166463}
-  - component: {fileID: 6916594030170409291}
+  - component: {fileID: 7408532938149390312}
   m_Layer: 0
   m_Name: Collider1 (4)
   m_TagString: Untagged
@@ -4264,7 +4264,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -4276,7 +4276,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6916594030170409291
+--- !u!61 &7408532938149390312
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4300,7 +4300,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &1961499440754921830
 GameObject:
@@ -4399,7 +4399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4863056895122922534}
   - component: {fileID: 8063583587635959457}
-  - component: {fileID: 8539888913470227618}
+  - component: {fileID: 1331747989380936862}
   m_Layer: 0
   m_Name: Collider1 (1)
   m_TagString: Untagged
@@ -4459,7 +4459,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -4471,7 +4471,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8539888913470227618
+--- !u!61 &1331747989380936862
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4495,7 +4495,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &2631325685135311417
 GameObject:
@@ -4541,7 +4541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3370500610924435559}
   - component: {fileID: 129586964905365693}
-  - component: {fileID: 8038018673041676947}
+  - component: {fileID: 161725221976657079}
   m_Layer: 0
   m_Name: Collider1 (8)
   m_TagString: Untagged
@@ -4601,7 +4601,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -4613,7 +4613,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8038018673041676947
+--- !u!61 &161725221976657079
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4637,7 +4637,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &2868866914635897351
 GameObject:
@@ -4649,7 +4649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2515518705489543044}
   - component: {fileID: 8638586625648262749}
-  - component: {fileID: 3057481006016815568}
+  - component: {fileID: 5654698718649220145}
   m_Layer: 0
   m_Name: Collider1 (2)
   m_TagString: Untagged
@@ -4709,7 +4709,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -4721,7 +4721,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3057481006016815568
+--- !u!61 &5654698718649220145
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4745,7 +4745,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &3020535589879918498
 GameObject:
@@ -5271,7 +5271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3165653537154405822}
   - component: {fileID: 6256225546309256648}
-  - component: {fileID: 1442317091702138139}
+  - component: {fileID: 8475688169889993482}
   m_Layer: 0
   m_Name: Collider1 (6)
   m_TagString: Untagged
@@ -5331,7 +5331,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -5343,7 +5343,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1442317091702138139
+--- !u!61 &8475688169889993482
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5367,7 +5367,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &3229588881649839223
 GameObject:
@@ -5379,7 +5379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2806585409046669237}
   - component: {fileID: 6960819077781421538}
-  - component: {fileID: 998667128792550583}
+  - component: {fileID: 4896869313765044065}
   m_Layer: 0
   m_Name: Collider1
   m_TagString: Untagged
@@ -5439,7 +5439,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -5451,7 +5451,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &998667128792550583
+--- !u!61 &4896869313765044065
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5475,7 +5475,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &3296687089445889567
 GameObject:
@@ -5487,7 +5487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8999421171649708306}
   - component: {fileID: 4924836572183439182}
-  - component: {fileID: 2561448191943726589}
+  - component: {fileID: 8675792842892421690}
   m_Layer: 0
   m_Name: Collider1 (3)
   m_TagString: Untagged
@@ -5547,7 +5547,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -5559,7 +5559,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2561448191943726589
+--- !u!61 &8675792842892421690
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5583,7 +5583,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &3891246879499230516
 GameObject:
@@ -5632,8 +5632,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
+  _taskText: {fileID: 0}
+  _objectiveTexts:
+  - turn on lazy human
+  - remove filth from human
+  - praise us glorious overlords
   _wakeUpControl: {fileID: 0}
   _shower: {fileID: 1186569029204389524}
+  _praiseControl: {fileID: 0}
 --- !u!1 &3932001867003245038
 GameObject:
   m_ObjectHideFlags: 0
@@ -5644,7 +5650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1407979791725267817}
   - component: {fileID: 1489995538068356534}
-  - component: {fileID: 7566871588766998036}
+  - component: {fileID: 1632037089033704617}
   m_Layer: 0
   m_Name: Collider1 (7)
   m_TagString: Untagged
@@ -5704,7 +5710,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -5716,7 +5722,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7566871588766998036
+--- !u!61 &1632037089033704617
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5740,7 +5746,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &4011894977769175531
 GameObject:
@@ -5782,7 +5788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5221566316281167233}
   - component: {fileID: 7448704137745760490}
-  - component: {fileID: 4183196909027080409}
+  - component: {fileID: 5791491902003941359}
   m_Layer: 0
   m_Name: Collider1 (9)
   m_TagString: Untagged
@@ -5842,7 +5848,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -5854,7 +5860,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4183196909027080409
+--- !u!61 &5791491902003941359
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5878,7 +5884,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &4509648141486388312
 GameObject:
@@ -5890,7 +5896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4737026366414250684}
   - component: {fileID: 8119786541338232239}
-  - component: {fileID: 7711015253475842650}
+  - component: {fileID: 1187069364847766072}
   m_Layer: 0
   m_Name: Collider1 (3)
   m_TagString: Untagged
@@ -5950,7 +5956,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -5962,7 +5968,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7711015253475842650
+--- !u!61 &1187069364847766072
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5986,7 +5992,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &4582614578516556412
 GameObject:
@@ -6287,7 +6293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2776963806431737694}
   - component: {fileID: 1288491538639033566}
-  - component: {fileID: 2324608530983774325}
+  - component: {fileID: 4308879718831185923}
   m_Layer: 0
   m_Name: Collider1 (1)
   m_TagString: Untagged
@@ -6347,7 +6353,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -6359,7 +6365,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2324608530983774325
+--- !u!61 &4308879718831185923
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6383,7 +6389,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &4878831221299775849
 GameObject:
@@ -6395,7 +6401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6875270138211394055}
   - component: {fileID: 8761686293504130777}
-  - component: {fileID: 2643254990127993888}
+  - component: {fileID: 3992408597398711039}
   m_Layer: 0
   m_Name: Collider1 (10)
   m_TagString: Untagged
@@ -6455,7 +6461,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -6467,7 +6473,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2643254990127993888
+--- !u!61 &3992408597398711039
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6491,7 +6497,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &4904018939653965967
 GameObject:
@@ -6503,7 +6509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5220143960803358722}
   - component: {fileID: 7832401719684850292}
-  - component: {fileID: 8802271523974119870}
+  - component: {fileID: 2290037713347623239}
   m_Layer: 0
   m_Name: Collider1 (2)
   m_TagString: Untagged
@@ -6563,7 +6569,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -6575,7 +6581,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8802271523974119870
+--- !u!61 &2290037713347623239
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6599,7 +6605,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &5157011190376007225
 GameObject:
@@ -6645,7 +6651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5141846544181416408}
   - component: {fileID: 6075861835072856097}
-  - component: {fileID: 6057255634388427936}
+  - component: {fileID: 8457314752583470002}
   m_Layer: 0
   m_Name: Collider1 (1)
   m_TagString: Untagged
@@ -6705,7 +6711,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -6717,7 +6723,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6057255634388427936
+--- !u!61 &8457314752583470002
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6741,7 +6747,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &5400486205951911882
 GameObject:
@@ -8539,7 +8545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4728736517367966107}
   - component: {fileID: 1755142968254830938}
-  - component: {fileID: 4556622676499982371}
+  - component: {fileID: 4839909615335124417}
   m_Layer: 0
   m_Name: Collider1 (5)
   m_TagString: Untagged
@@ -8599,7 +8605,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -8611,7 +8617,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4556622676499982371
+--- !u!61 &4839909615335124417
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8635,7 +8641,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &5648952907723862553
 GameObject:
@@ -9448,7 +9454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1446406863219337587}
   - component: {fileID: 4689979848642382459}
-  - component: {fileID: 7158811296937357915}
+  - component: {fileID: 5808905018090342534}
   m_Layer: 0
   m_Name: Collider1 (10)
   m_TagString: Untagged
@@ -9508,7 +9514,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -9520,7 +9526,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7158811296937357915
+--- !u!61 &5808905018090342534
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9544,7 +9550,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &6353228032706079588
 GameObject:
@@ -9556,7 +9562,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4001091695320233042}
   - component: {fileID: 4386649073983781412}
-  - component: {fileID: 7151723485039140800}
+  - component: {fileID: 183830105888173215}
   m_Layer: 0
   m_Name: Collider1 (6)
   m_TagString: Untagged
@@ -9616,7 +9622,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -9628,7 +9634,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7151723485039140800
+--- !u!61 &183830105888173215
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9652,7 +9658,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &6448332772133565586
 GameObject:
@@ -9664,7 +9670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5257372637323904477}
   - component: {fileID: 2478076204803663511}
-  - component: {fileID: 3331896975349697682}
+  - component: {fileID: 2371905823834407919}
   m_Layer: 0
   m_Name: Collider1 (9)
   m_TagString: Untagged
@@ -9724,7 +9730,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -9736,7 +9742,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3331896975349697682
+--- !u!61 &2371905823834407919
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9760,7 +9766,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &6845208339745893790
 GameObject:
@@ -9772,7 +9778,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5220793242061648126}
   - component: {fileID: 5225582095375732521}
-  - component: {fileID: 7852340652297260185}
+  - component: {fileID: 595688713715835060}
   m_Layer: 0
   m_Name: Collider1 (5)
   m_TagString: Untagged
@@ -9832,7 +9838,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -9844,7 +9850,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7852340652297260185
+--- !u!61 &595688713715835060
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9868,7 +9874,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &6957474919999172759
 GameObject:
@@ -10366,7 +10372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7266062088539292721}
   - component: {fileID: 1280855919080965842}
-  - component: {fileID: 4946018911389642135}
+  - component: {fileID: 4285996227072736499}
   m_Layer: 0
   m_Name: Collider1 (6)
   m_TagString: Untagged
@@ -10426,7 +10432,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -10438,7 +10444,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4946018911389642135
+--- !u!61 &4285996227072736499
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10462,7 +10468,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &8163459431035605957
 GameObject:
@@ -10474,7 +10480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2962943454798350586}
   - component: {fileID: 1316048753369324648}
-  - component: {fileID: 685364937903487701}
+  - component: {fileID: 6497404529337931298}
   m_Layer: 0
   m_Name: Collider1 (10)
   m_TagString: Untagged
@@ -10534,7 +10540,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -10546,7 +10552,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &685364937903487701
+--- !u!61 &6497404529337931298
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10570,7 +10576,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &8279476081423153546
 GameObject:
@@ -10663,7 +10669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5118521703489921294}
   - component: {fileID: 2691390736381080756}
-  - component: {fileID: 8929799711840352100}
+  - component: {fileID: 2075941360659279464}
   m_Layer: 0
   m_Name: Collider1 (3)
   m_TagString: Untagged
@@ -10723,7 +10729,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -10735,7 +10741,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8929799711840352100
+--- !u!61 &2075941360659279464
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10759,7 +10765,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &8321742646172085975
 GameObject:
@@ -10771,7 +10777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3646946260165105005}
   - component: {fileID: 3844895078484092697}
-  - component: {fileID: 3533411750692153333}
+  - component: {fileID: 3633511324591530436}
   m_Layer: 0
   m_Name: Collider1 (4)
   m_TagString: Untagged
@@ -10831,7 +10837,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -10843,7 +10849,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3533411750692153333
+--- !u!61 &3633511324591530436
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10867,7 +10873,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &8549484794540855394
 GameObject:
@@ -10879,7 +10885,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5110036259279332687}
   - component: {fileID: 1130567888292946197}
-  - component: {fileID: 3828761935336536775}
+  - component: {fileID: 6882966087509682898}
   m_Layer: 0
   m_Name: Collider1 (5)
   m_TagString: Untagged
@@ -10939,7 +10945,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -10951,7 +10957,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3828761935336536775
+--- !u!61 &6882966087509682898
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10975,7 +10981,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &8574374576220527198
 GameObject:
@@ -11248,7 +11254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7696710601779043805}
   - component: {fileID: 7363913561932203673}
-  - component: {fileID: 338291979225531581}
+  - component: {fileID: 509656699966676853}
   m_Layer: 0
   m_Name: Collider1 (2)
   m_TagString: Untagged
@@ -11308,7 +11314,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -11320,7 +11326,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &338291979225531581
+--- !u!61 &509656699966676853
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11344,7 +11350,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &9047240322939544011
 GameObject:
@@ -11356,7 +11362,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2994679500682992110}
   - component: {fileID: 2437100917278086935}
-  - component: {fileID: 7500132841921618448}
+  - component: {fileID: 4787385544786749721}
   m_Layer: 0
   m_Name: Collider1
   m_TagString: Untagged
@@ -11416,7 +11422,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: a47c4eca84b5b5543857182a0831d48c, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 0.50980395}
   m_FlipX: 0
@@ -11428,7 +11434,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7500132841921618448
+--- !u!61 &4787385544786749721
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11452,7 +11458,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.01, y: 0.01}
+  m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
 --- !u!1 &9113395639552258453
 GameObject:
