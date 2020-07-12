@@ -38,6 +38,9 @@ TextureImporter:
   - first:
       213: 856773554234707054
     second: Props_Kitchen_CoffeeCup
+  - first:
+      213: 7339799227986623977
+    second: Props_Kitchen_CoffeeMachine
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -289,6 +292,27 @@ TextureImporter:
       bones: []
       spriteID: e6ccb19120fd3eb00800000000000000
       internalID: 856773554234707054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Kitchen_CoffeeMachine
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 22
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed34da82843cd560800000000000000
+      internalID: 7339799227986623977
       vertices: []
       indices: 
       edges: []
