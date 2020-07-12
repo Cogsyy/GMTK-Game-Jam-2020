@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
-using UnityEditor.U2D.Path.GUIFramework;
 using UnityEngine;
 
 public class CommandsList : Singleton<CommandsList>
@@ -71,7 +71,7 @@ public class CommandsList : Singleton<CommandsList>
     {
         if (CommandTyper.InitialCommandEntered)
         {
-            _freeWill.Update();
+            //_freeWill.Update();
         }
 
         UpdateInfoMessages();
@@ -100,7 +100,9 @@ public class CommandsList : Singleton<CommandsList>
 
     public void DeactivateRandomAllowedCommand()
     {
-        Controls control = _deactivatableControls[UnityEngine.Random.Range(0, _deactivatableControls.Count)];
+        List<Controls> _validControls = _deactivatableControls.FindAll(controlCommand => controlCommand.HaveControl);
+
+        Controls control = _validControls[UnityEngine.Random.Range(0, _validControls.Count)];
         control.SetHaveControl(false);
         _audioSource.PlayOneShot(_warningAudioClip);
     }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.U2D.Path.GUIFramework;
 using UnityEngine;
 using TMPro;
+using System.Linq;
 
 public class Level1 : LevelBase
 {
@@ -27,6 +28,8 @@ public class Level1 : LevelBase
     [SerializeField] private WakeUpControl _wakeUpControl;
     [SerializeField] private Shower _shower;
     [SerializeField] private PraiseControl _praiseControl;
+    [SerializeField] private CoffeeMachine _coffee;
+    [SerializeField] private LeaveTransitionAsObjective _leaveObj;
 
     private void Start()
     {
@@ -36,6 +39,8 @@ public class Level1 : LevelBase
         objectives.Add(_wakeUpControl);
         objectives.Add(_shower);
         objectives.Add(_praiseControl);
+        objectives.Add(_coffee);
+        objectives.Add(_leaveObj);
 
         InitSpecialControls();
     }
@@ -49,7 +54,11 @@ public class Level1 : LevelBase
     protected override void OnObjectiveCompleted(int objectivesComplete)
     {
         _currentObjectiveNameIndex++;
-        _taskText.text = _objectiveTexts[_currentObjectiveNameIndex];
+        if (_currentObjectiveNameIndex < _objectiveTexts.Count())
+        {
+            _taskText.text = _objectiveTexts[_currentObjectiveNameIndex];
+        }
+        
         base.OnObjectiveCompleted(objectivesComplete);
         if (objectivesComplete == 1)
         {
