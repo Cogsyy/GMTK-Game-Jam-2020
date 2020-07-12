@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6423923552788726573}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.57, y: -0.73, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 15, y: 15, z: 1}
   m_Children: []
   m_Father: {fileID: 6423923554173604088}
@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 211882556518476957}
   - component: {fileID: 1885662702414585198}
   - component: {fileID: 8285338316151506897}
+  - component: {fileID: 1337019136145162266}
   m_Layer: 0
   m_Name: ControllableEntity
   m_TagString: Player
@@ -161,8 +162,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6423923554173604089}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.74, y: 0, z: -5.6279297}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -5.54, y: 2.31, z: -5.6279297}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6423923552788726572}
@@ -298,3 +299,20 @@ MonoBehaviour:
   audioClip: {fileID: 8300000, guid: e25b43ebfebce804fb167c20fd2d2753, type: 3}
   _requireParameters: 0
   canLoseControl: 1
+--- !u!114 &1337019136145162266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6423923554173604089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b4604053115a0b4fa3b8d4a32769a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _commandName: /wakeup
+  audioClip: {fileID: 8300000, guid: 07bb07a4f144fc246a33a5ef355fe414, type: 3}
+  _requireParameters: 0
+  canLoseControl: 1
+  _player: {fileID: 6423923554173604035}

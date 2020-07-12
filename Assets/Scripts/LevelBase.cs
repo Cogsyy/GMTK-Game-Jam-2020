@@ -6,3 +6,13 @@ public class LevelBase : MonoBehaviour
 {
     
 }
+
+public class Objective
+{
+    public bool completed;
+
+    public void CompleteObjective()
+    {
+
+    }
+}
