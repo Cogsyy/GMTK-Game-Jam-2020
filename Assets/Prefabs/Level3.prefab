@@ -8330,9 +8330,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactFx: {fileID: 0}
   _controllableEntity: {fileID: 0}
-  _transitionSpawnPoint: {fileID: 0}
+  _transitionSpawnPoint: {fileID: 8654027602899940835}
   _activeRoom: {fileID: 7087321321592801411}
-  _transitionToRoom: {fileID: 0}
+  _transitionToRoom: {fileID: 94016693203815555}
   _collider: {fileID: 7209360794547149866}
 --- !u!1 &6668019408923852134
 GameObject:

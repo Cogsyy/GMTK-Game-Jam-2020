@@ -2278,6 +2278,11 @@ PrefabInstance:
       propertyPath: _transitionSpawnPoint
       value: 
       objectReference: {fileID: 1023650398}
+    - target: {fileID: 8958640069228413662, guid: 9de9da28015b5244e9b707d015ee864e,
+        type: 3}
+      propertyPath: _level
+      value: 
+      objectReference: {fileID: 752782647}
     - target: {fileID: 9036659905333362061, guid: 9de9da28015b5244e9b707d015ee864e,
         type: 3}
       propertyPath: m_Enabled
