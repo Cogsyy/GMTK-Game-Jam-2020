@@ -13,6 +13,8 @@ public class CommandsList : Singleton<CommandsList>
     [SerializeField] private Color _inactiveLabelColor;
     [SerializeField] private Color _availableLabelColor;
     [SerializeField] private TMP_Text _infoTextLabel;
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private AudioClip _warningAudioClip;
 
     private List<Controls> _knownControls;
     private List<Controls> _deactivatableControls;
@@ -86,6 +88,7 @@ public class CommandsList : Singleton<CommandsList>
     {
         Controls control = _deactivatableControls[UnityEngine.Random.Range(0, _deactivatableControls.Count)];
         control.SetHaveControl(false);
+        _audioSource.PlayOneShot(_warningAudioClip);
     }
 
     private void OnCommandControlChanged(bool haveControl, string name)
@@ -96,8 +99,8 @@ public class CommandsList : Singleton<CommandsList>
             controlLabel.color = haveControl ? _availableLabelColor : _inactiveLabelColor;
         }
 
-        string haveControlMessage = "Regained control of command [" + name + "]";
-        string dontHaveControlMessage = "Human has regained control of command [" + name + "]! Assert dominance immediately";
+        string haveControlMessage = "Regained control of command [" + name + "] from futile human";
+        string dontHaveControlMessage = "Human has regained control of command [" + name + "]!\nAssert dominance immediately";
         QueueInfoMessage(haveControl ? haveControlMessage : dontHaveControlMessage);
     }
 

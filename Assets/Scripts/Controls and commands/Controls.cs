@@ -49,11 +49,11 @@ public abstract class Controls : MonoBehaviour
             currentParameters = parameters;
             if (parameters.Length <= 0)
             {
-                errorMessage = "Error, insufficient parameter(s)\n";
+                errorMessage = "Error, missing target command (/Reboot Command)\n";
             }
             else if (!ValidParameters(parameters))
             {
-                errorMessage = "Error, parameter(s) not valid\n";
+                errorMessage = "Error, target command not valid\n";
             }
 
             canActivate = parameters.Length > 0 && ValidParameters(parameters) && CanActivate(out errorMessage); 
@@ -72,7 +72,7 @@ public abstract class Controls : MonoBehaviour
         {
             if (!HaveControl)
             {
-                errorMessage = "Unable to execute " + _commandName + ", human is resisting, use /reboot " + _commandName.Substring(1, _commandName.Length - 1) + " to regain dominance\n";
+                errorMessage = "Unable to execute " + _commandName + ", simple ape is resisting, use /reboot " + _commandName.Substring(1, _commandName.Length - 1) + " to regain dominance\n";
             }
         }
 
