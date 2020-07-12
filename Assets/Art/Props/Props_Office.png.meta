@@ -23,6 +23,9 @@ TextureImporter:
   - first:
       213: 1657385057001481875
     second: Props_Office_Desk
+  - first:
+      213: 1172024095576528753
+    second: Props_Office_Plant1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -250,6 +253,27 @@ TextureImporter:
       bones: []
       spriteID: 3962d9a9de6300710800000000000000
       internalID: 1657385057001481875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props_Office_Plant1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177990d84bdd34010800000000000000
+      internalID: 1172024095576528753
       vertices: []
       indices: 
       edges: []
