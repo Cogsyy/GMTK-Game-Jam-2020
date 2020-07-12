@@ -16,23 +16,7 @@ public class RoomTransition : BaseObject
         _collider.enabled = true;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.CompareTag("Player"))
-        {
-            GameController.Instance.nearbyInteractible = this;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            GameController.Instance.nearbyInteractible = null;
-        }
-    }
-
-    private void Transition()
+    protected void Transition()
     {
         StaticTrigger.Instance.TriggerStaticTransition();
         _collider.enabled = false;

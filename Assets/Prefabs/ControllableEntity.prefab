@@ -199,6 +199,8 @@ GameObject:
   - component: {fileID: 1885662702414585198}
   - component: {fileID: 1337019136145162266}
   - component: {fileID: 5326930182812741029}
+  - component: {fileID: 2068543514223313802}
+  - component: {fileID: 7196844160457394698}
   m_Layer: 0
   m_Name: ControllableEntity
   m_TagString: Player
@@ -370,3 +372,35 @@ MonoBehaviour:
   _requireParameters: 0
   canLoseControl: 1
   _player: {fileID: 6423923554173604035}
+--- !u!114 &2068543514223313802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6423923554173604089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a86ab70ed913040a05e13a0e2f9cfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _commandName: /cry
+  audioClip: {fileID: 8300000, guid: 29d6341f737569b48a69b1e2ab69d36d, type: 3}
+  _requireParameters: 0
+  canLoseControl: 1
+--- !u!114 &7196844160457394698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6423923554173604089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16c3eb7fd122fb46b88200ebe5f6e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _commandName: /praise
+  audioClip: {fileID: 8300000, guid: 4acb972cbabbff941bde5b4c5df67174, type: 3}
+  _requireParameters: 0
+  canLoseControl: 0

@@ -71,7 +71,7 @@ public class CommandsList : Singleton<CommandsList>
     {
         if (CommandTyper.InitialCommandEntered)
         {
-            _freeWill.Update();
+            //_freeWill.Update();
         }
 
         UpdateInfoMessages();
