@@ -72,7 +72,10 @@ public class CommandsList : Singleton<CommandsList>
     {
         for (int i = 0; i < _knownControls.Count; i++)
         {
-            _knownControls[i].Deactivate();
+            if (_knownControls[i].HaveControl)
+            {
+                _knownControls[i].Deactivate();
+            }
         }
     }
 
