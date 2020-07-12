@@ -1311,6 +1311,11 @@ PrefabInstance:
       propertyPath: _loadingBar
       value: 
       objectReference: {fileID: 1610859320}
+    - target: {fileID: 6423923554173604035, guid: a9a783675d59c1549bc5b0a9a42043a5,
+        type: 3}
+      propertyPath: _humanSpriteRenderer
+      value: 
+      objectReference: {fileID: 8784931200876070552}
     - target: {fileID: 6423923554173604088, guid: a9a783675d59c1549bc5b0a9a42043a5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2017,6 +2022,11 @@ PrefabInstance:
       propertyPath: _taskText
       value: 
       objectReference: {fileID: 593224533}
+    - target: {fileID: 7176723699277027714, guid: 9de9da28015b5244e9b707d015ee864e,
+        type: 3}
+      propertyPath: _praiseControl
+      value: 
+      objectReference: {fileID: 8784931199031334217}
     - target: {fileID: 9077265908879642420, guid: 9de9da28015b5244e9b707d015ee864e,
         type: 3}
       propertyPath: _controllableEntity
@@ -2317,6 +2327,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &8784931200876070552 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6423923552788726579, guid: a9a783675d59c1549bc5b0a9a42043a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 159211315394530631}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8873502871836854742
 PrefabInstance:
   m_ObjectHideFlags: 0

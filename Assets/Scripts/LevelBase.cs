@@ -21,6 +21,10 @@ public class LevelBase : MonoBehaviour
                     OnObjectiveCompleted(_currentObjective);
                 }
             }
+            else
+            {
+                return;
+            }
         }
         
         if (triggerCount >= objectives.Count)

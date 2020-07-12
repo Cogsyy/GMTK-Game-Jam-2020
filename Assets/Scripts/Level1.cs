@@ -30,6 +30,8 @@ public class Level1 : LevelBase
 
     private void Start()
     {
+        _taskText.text = _objectiveTexts[_currentObjectiveNameIndex];
+
         //setup objectives
         objectives.Add(_wakeUpControl);
         objectives.Add(_shower);
