@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: /moveup
+  _commandName: /goup
   audioClip: {fileID: 8300000, guid: 07bb07a4f144fc246a33a5ef355fe414, type: 3}
   _requireParameters: 0
   canLoseControl: 1
@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: /movedown
+  _commandName: /godown
   audioClip: {fileID: 8300000, guid: 07bb07a4f144fc246a33a5ef355fe414, type: 3}
   _requireParameters: 0
   canLoseControl: 1
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: /moveleft
+  _commandName: /goleft
   audioClip: {fileID: 8300000, guid: 07bb07a4f144fc246a33a5ef355fe414, type: 3}
   _requireParameters: 0
   canLoseControl: 1
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df40e5411151694d80f7296fae2e015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _commandName: /moveright
+  _commandName: /goright
   audioClip: {fileID: 8300000, guid: 07bb07a4f144fc246a33a5ef355fe414, type: 3}
   _requireParameters: 0
   canLoseControl: 1

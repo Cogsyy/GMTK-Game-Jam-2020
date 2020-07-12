@@ -8,6 +8,7 @@ public class PraiseControl : Controls, IObjective
 
     protected override void Execute(params string[] parameters)
     {
+        _praised = false;
         base.Execute(parameters);
         CommandTyper.Instance.PlayPraiseAnim(true);
         StartCoroutine(SmallDelayedReset());

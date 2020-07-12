@@ -285,7 +285,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.77}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -296,7 +296,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8, y: 6}
+  m_Size: {x: 8, y: 5.07}
   m_EdgeRadius: 0
 --- !u!114 &9102045902196476181
 MonoBehaviour:
@@ -4512,7 +4512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4426971625157485395
 Transform:
   m_ObjectHideFlags: 0
@@ -6616,7 +6616,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9076977510677851532
 Transform:
   m_ObjectHideFlags: 0
@@ -10140,7 +10140,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4, y: 2.61}
+  m_Size: {x: 1.85, y: 2.79}
   m_EdgeRadius: 0
 --- !u!114 &1186569029204389524
 MonoBehaviour:
@@ -10440,7 +10440,7 @@ MonoBehaviour:
   _interactFx: {fileID: 0}
   _controllableEntity: {fileID: 0}
   _transitionSpawnPoint: {fileID: 5809222198856106078}
-  _activeRoom: {fileID: 2631325685135311417}
+  _activeRoom: {fileID: 5157011190376007225}
   _transitionToRoom: {fileID: 1008734864388228477}
   _collider: {fileID: 6467438533227564507}
 --- !u!1 &7814680270035424976

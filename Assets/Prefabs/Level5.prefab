@@ -8898,7 +8898,6 @@ GameObject:
   - component: {fileID: 1363006535301416235}
   - component: {fileID: 1929467319933957034}
   - component: {fileID: 5506502925888880088}
-  - component: {fileID: 2788354665333033675}
   m_Layer: 0
   m_Name: OutsideDoor
   m_TagString: Untagged
@@ -8997,24 +8996,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
---- !u!114 &2788354665333033675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8138540858335320554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc4ef99387106c44e93d5c8b918a2b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactFx: {fileID: 0}
-  _controllableEntity: {fileID: 0}
-  _transitionSpawnPoint: {fileID: 0}
-  _activeRoom: {fileID: 6248018292458111106}
-  _transitionToRoom: {fileID: 0}
-  _collider: {fileID: 5506502925888880088}
 --- !u!1 &8323748264130779529
 GameObject:
   m_ObjectHideFlags: 0
