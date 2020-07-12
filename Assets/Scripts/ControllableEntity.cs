@@ -1,29 +1,52 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 public class ControllableEntity : MonoBehaviour
 {
+    [SerializeField] private LoadingBar _loadingBar;
+
     private List<DirectionalControl> _directionalControls;
+
+    [NonSerialized] public bool interacting;
     
-    private void Start()
+    private void Awake()
     {
         FindControls();
     }
 
     private void FindControls()
     {
+        GiveAllControls();//by default
+    }
+
+    public void GiveAllControls()
+    {
         _directionalControls = GetComponents<DirectionalControl>().ToList();
         List<Controls> allControls = GetComponents<Controls>().ToList();
 
-        CommandsList.Instance.InitCommandsList(allControls);
+        CommandsList.RegisterAction(() => CommandsList.Instance.InitCommandsList(allControls));
+    }
+
+    public void InitControls(params Controls[] allowedControls)
+    {
+        List<Controls> allowedControlsList = allowedControls.ToList();
+
+        _directionalControls = new List<DirectionalControl>();
+        for (int i = 0; i < allowedControlsList.Count; i++)
+        {
+            if (allowedControls[i] is DirectionalControl)
+                _directionalControls.Add(allowedControls[i] as DirectionalControl);
+        }
+
+        CommandsList.Instance.InitCommandsList(allowedControlsList);
     }
 
     private void Update()
     {
         UpdateDirectionalControls();
-        UpdateControls();
     }
 
     private void UpdateDirectionalControls()
@@ -37,8 +60,8 @@ public class ControllableEntity : MonoBehaviour
         transform.position += newDelta;
     }
 
-    private void UpdateControls()
+    public Coroutine LoadForDuration(float duration)
     {
-        
+        return _loadingBar.StartLoading(duration);
     }
 }

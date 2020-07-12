@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class GameController : Singleton<GameController>
 {
-    public Action touchingTransition;
+    public IInteractible nearbyInteractible;
 
     protected override void OnSetSingleton()
     {

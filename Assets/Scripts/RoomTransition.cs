@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoomTransition : MonoBehaviour
+public class RoomTransition : BaseObject
 {
     [SerializeField] private Transform _controllableEntity;
     [SerializeField] private Transform _transitionSpawnPoint;
@@ -19,7 +19,7 @@ public class RoomTransition : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            GameController.Instance.touchingTransition = Transition;
+            GameController.Instance.nearbyInteractible = this;
         }
     }
 
@@ -27,7 +27,7 @@ public class RoomTransition : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            GameController.Instance.touchingTransition = null;
+            GameController.Instance.nearbyInteractible = null;
         }
     }
 
@@ -41,5 +41,21 @@ public class RoomTransition : MonoBehaviour
         {
             _controllableEntity.position = _transitionSpawnPoint.position;
         }
+    }
+
+    public override bool CanInteract()
+    {
+        return true;
+    }
+
+    public override string GetErrorMessage()
+    {
+        return "";//N/A
+    }
+
+    public override void Interact(ControllableEntity player)
+    {
+        CommandTyper.Instance.PlayCommandSound(GetSFX());
+        Transition();
     }
 }

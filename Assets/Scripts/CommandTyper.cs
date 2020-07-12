@@ -135,6 +135,9 @@ public class CommandTyper : Singleton<CommandTyper>
 
     public void PlayCommandSound(AudioClip clip)
     {
-        _audioSource.PlayOneShot(clip);
+        if (clip != null)
+        {
+            _audioSource.PlayOneShot(clip);
+        }
     }
 }

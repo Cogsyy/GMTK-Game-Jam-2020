@@ -16,6 +16,7 @@ public class CommandsList : Singleton<CommandsList>
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private AudioClip _warningAudioClip;
 
+    private static List<Action> _registeringList = new List<Action>();
     private List<Controls> _knownControls;
     private List<Controls> _deactivatableControls;
     private List<TMP_Text> _commandTexts = new List<TMP_Text>();
@@ -35,6 +36,8 @@ public class CommandsList : Singleton<CommandsList>
 
     public void InitCommandsList(List<Controls> allControls)
     {
+        CleanCommands();
+
         _commandTexts = new List<TMP_Text>();
         _deactivatableControls = new List<Controls>();
         _knownControls = allControls;
@@ -49,6 +52,17 @@ public class CommandsList : Singleton<CommandsList>
             if (allControls[i].canLoseControl)
             {
                 _deactivatableControls.Add(allControls[i]);
+            }
+        }
+    }
+
+    private void CleanCommands()
+    {
+        if (_commandTexts != null)
+        {
+            for (int i = _commandTexts.Count - 1; i >= 0; i--)
+            {
+                Destroy(_commandTexts[i].gameObject);
             }
         }
     }
@@ -144,6 +158,28 @@ public class CommandsList : Singleton<CommandsList>
     private TMP_Text FindControlLabel(string name)
     {
         return _commandTexts.Find(label => label.text.ToLower() == name.ToLower());
+    }
+
+    public static void RegisterAction(Action action)
+    {
+        if (Instance == null)
+        {
+            _registeringList.Add(action);
+        }
+        else
+        {
+            action.Invoke();
+        }
+    }
+
+    protected override void OnSetSingleton()
+    {
+        base.OnSetSingleton();
+        for (int i = 0; i < _registeringList.Count; i++)
+        {
+            _registeringList[i].Invoke();
+        }
+        _registeringList.Clear();
     }
 
     #endregion

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WakeUpControl : Controls
+public class WakeUpControl : Controls, IObjective
 {
     [SerializeField] private ControllableEntity _player;
 
@@ -28,9 +28,14 @@ public class WakeUpControl : Controls
         errorMessage = "";
         if (!_asleep)
         {
-            errorMessage = "Error, human is not rebooting awake module";
+            errorMessage = "Error, human is not rebooting awake module\n";
         }
 
         return _asleep && base.CanActivate(out errorMessage);
+    }
+
+    public bool Triggered()
+    {
+        return !_asleep;
     }
 }
