@@ -15,7 +15,7 @@ public class LeaveTransitionAsObjective : RoomTransition, IObjective
 
     public override string GetErrorMessage()
     {
-        return "Error, must perform standard human tasks first\n";//N/A
+        return "Error, must perform predictable human tasks first\n";//N/A
     }
 
     public override void Interact(ControllableEntity player)
