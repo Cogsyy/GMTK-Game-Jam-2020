@@ -71,7 +71,7 @@ public abstract class Controls : MonoBehaviour
         {
             if (!HaveControl)
             {
-                errorMessage = "Unable to execute " + _commandName + ", human is resisting, use /reboot " + _commandName + " to regain dominance\n";
+                errorMessage = "Unable to execute " + _commandName + ", human is resisting, use /reboot " + _commandName.Substring(1, _commandName.Length - 1) + " to regain dominance\n";
             }
         }
 
@@ -97,7 +97,7 @@ public abstract class Controls : MonoBehaviour
     protected virtual bool CanActivate(out string errorMessage)
     {
         errorMessage = "";//none
-        return true;
+        return HaveControl;
     }
 
     protected virtual void Execute(params string[] parameters)
