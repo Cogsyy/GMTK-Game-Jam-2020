@@ -1,25 +1,13 @@
 fileFormatVersion: 2
-guid: 2632bf547d03d5043837ff0f859dc06f
+guid: e0f498b219a829940a737cd6167d373e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1274384852013331567
-    second: Props_Office_Flip_Pot
+      213: 8871751843563089514
+    second: CH_LADY2_0
   - first:
-      213: -770295632124216990
-    second: Props_Office_Flip_CubeWall
-  - first:
-      213: -6513435828394558537
-    second: Props_Office_Flip_Chair
-  - first:
-      213: 9021781588724899846
-    second: Props_Office_Flip_Water
-  - first:
-      213: 8873485911429871614
-    second: Props_Office_Flip_Desk
-  - first:
-      213: 8450279326717894432
-    second: Props_Office_CubeWallZ
+      213: 5664231964776739541
+    second: CH_LADY2_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -59,7 +47,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 4
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -105,127 +93,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Props_Office_Flip_Pot
+      name: CH_LADY2_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 21
-        width: 6
-        height: 6
+        x: 0
+        y: 16
+        width: 8
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19b4b94aab9705ee0800000000000000
-      internalID: -1274384852013331567
+      spriteID: a6eaef21c4bce1b70800000000000000
+      internalID: 8871751843563089514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Props_Office_Flip_CubeWall
+      name: CH_LADY2_1
       rect:
         serializedVersion: 2
         x: 11
-        y: 18
-        width: 12
-        height: 13
+        y: 16
+        width: 10
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 269733b243c5f45f0800000000000000
-      internalID: -770295632124216990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Office_Flip_Chair
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 23
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7bb7d3daf90ab95a0800000000000000
-      internalID: -6513435828394558537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Office_Flip_Water
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 1
-        width: 5
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6006b153e8ec33d70800000000000000
-      internalID: 9021781588724899846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Office_Flip_Desk
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 1
-        width: 17
-        height: 10
-      alignment: 9
-      pivot: {x: 0.4975541, y: 0.34610587}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef7f5363c64f42b70800000000000000
-      internalID: 8873485911429871614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Props_Office_CubeWallZ
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 2
-        width: 5
-        height: 16
-      alignment: 9
-      pivot: {x: 0.087272026, y: 0.5418139}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02fd8d1b64c654570800000000000000
-      internalID: 8450279326717894432
+      spriteID: 5d23ee926f46b9e40800000000000000
+      internalID: 5664231964776739541
       vertices: []
       indices: 
       edges: []
