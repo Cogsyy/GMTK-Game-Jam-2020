@@ -4,7 +4,7 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using System.Text.RegularExpressions;
-using UnityEditor.PackageManager;
+using UnityEngine.EventSystems;
 
 public class CommandTyper : Singleton<CommandTyper>
 {
@@ -19,6 +19,8 @@ public class CommandTyper : Singleton<CommandTyper>
     private bool _blockCommands = false;
 
     private bool _isWaitingForConfirmation;
+
+    public static bool InitialCommandEntered { get; private set; }
 
     public void Event_OnValueChanged()//fired from the command's tmp input field
     {
@@ -80,9 +82,6 @@ public class CommandTyper : Singleton<CommandTyper>
 
     private void ProcessCommand(string command)
     {
-        if (_blockCommands)
-            return;
-
         //need to get the command + the parameters
         List<string> words = command.Split(' ').ToList();
         string commandName = words[0];
@@ -90,7 +89,11 @@ public class CommandTyper : Singleton<CommandTyper>
 
         if (CommandsList.Instance.CommandExists(commandName, out Controls commandedControl))
         {
-            if (!commandedControl.TryActivate(out string errorMessage, words.ToArray()))
+            if (commandedControl.TryActivate(out string errorMessage, words.ToArray()))
+            {
+                InitialCommandEntered = true;
+            }
+            else
             {
                 _inputField.text += errorMessage;
             }
@@ -116,6 +119,13 @@ public class CommandTyper : Singleton<CommandTyper>
     public void SetCommandBlocked(bool blocked)
     {
         _blockCommands = blocked;
+        _inputField.enabled = !blocked;
+
+        if (!blocked)
+        {
+            _inputField.OnPointerClick(new PointerEventData(EventSystem.current));
+            _inputField.caretPosition = _inputField.text.Length;
+        }
     }
 
     public void SetCommandText(string text)

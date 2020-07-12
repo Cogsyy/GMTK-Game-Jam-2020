@@ -53,7 +53,10 @@ public class CommandsList : Singleton<CommandsList>
 
     private void Update()
     {
-        _freeWill.Update();
+        if (CommandTyper.InitialCommandEntered)
+        {
+            _freeWill.Update();
+        }
 
         UpdateInfoMessages();
     }
