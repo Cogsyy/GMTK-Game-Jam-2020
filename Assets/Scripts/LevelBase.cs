@@ -39,13 +39,3 @@ public class LevelBase : MonoBehaviour
         Debug.Log("You win");
     }
 }
-
-public class Objective
-{
-    public bool completed;
-
-    public void CompleteObjective()
-    {
-
-    }
-}
