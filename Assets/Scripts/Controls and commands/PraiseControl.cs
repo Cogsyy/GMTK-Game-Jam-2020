@@ -20,7 +20,6 @@ public class PraiseControl : Controls, IObjective
         CommandTyper.Instance.PlayPraiseAnim(false);
         Deactivate();
         _praised = true;
-        Triggered();
     }
 
     public bool Triggered()
