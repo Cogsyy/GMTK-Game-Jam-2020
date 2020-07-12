@@ -1489,6 +1489,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3119350962472563929, guid: 329b696a43b9be84cb1ae3c1c9022904,
+        type: 3}
+      propertyPath: _interactFx
+      value: 
+      objectReference: {fileID: 8300000, guid: c930e2ac58bfab7499fa82b03dfdee24, type: 3}
     - target: {fileID: 3146001619084738424, guid: 329b696a43b9be84cb1ae3c1c9022904,
         type: 3}
       propertyPath: m_IsActive
@@ -1504,6 +1509,11 @@ PrefabInstance:
       propertyPath: _barks
       value: 
       objectReference: {fileID: 2438011420060759750}
+    - target: {fileID: 3929575992431492032, guid: 329b696a43b9be84cb1ae3c1c9022904,
+        type: 3}
+      propertyPath: _interactFx
+      value: 
+      objectReference: {fileID: 8300000, guid: 8acd4411c648d764982c0e87b55c85e7, type: 3}
     - target: {fileID: 4002987379038772371, guid: 329b696a43b9be84cb1ae3c1c9022904,
         type: 3}
       propertyPath: m_IsActive
@@ -1700,6 +1710,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9217809354943754479, guid: 329b696a43b9be84cb1ae3c1c9022904,
+        type: 3}
+      propertyPath: _interactFx
+      value: 
+      objectReference: {fileID: 8300000, guid: 7048ed7e9a6d8944aa34b25b906b8b92, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 329b696a43b9be84cb1ae3c1c9022904, type: 3}
 --- !u!114 &2358649234397574812
@@ -2797,6 +2812,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 923632593751902224, guid: 21b7e5008dafb5b43b9f3a5f8384ad3a,
+        type: 3}
+      propertyPath: _interactFx
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f4f4e03b67e9a84cb0dc8a6a665ffca, type: 3}
     - target: {fileID: 1412025714124179572, guid: 21b7e5008dafb5b43b9f3a5f8384ad3a,
         type: 3}
       propertyPath: m_IsActive
@@ -2887,6 +2907,11 @@ PrefabInstance:
       propertyPath: _controllableEntity
       value: 
       objectReference: {fileID: 8784931199031334214}
+    - target: {fileID: 4131767071705833150, guid: 21b7e5008dafb5b43b9f3a5f8384ad3a,
+        type: 3}
+      propertyPath: _interactFx
+      value: 
+      objectReference: {fileID: 8300000, guid: 5c761f8454f710c4495148ef3cf528ef, type: 3}
     - target: {fileID: 4262530284949702030, guid: 21b7e5008dafb5b43b9f3a5f8384ad3a,
         type: 3}
       propertyPath: _controllableEntity
@@ -2977,6 +3002,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7761968115637625228, guid: 21b7e5008dafb5b43b9f3a5f8384ad3a,
+        type: 3}
+      propertyPath: _interactFx
+      value: 
+      objectReference: {fileID: 8300000, guid: fe845113b89a76047a4ff705f0823911, type: 3}
     - target: {fileID: 7830757605641420552, guid: 21b7e5008dafb5b43b9f3a5f8384ad3a,
         type: 3}
       propertyPath: _objectiveTexts.Array.size
