@@ -1311,20 +1311,10 @@ PrefabInstance:
       propertyPath: _loadingBar
       value: 
       objectReference: {fileID: 1610859320}
-    - target: {fileID: 6423923554173604035, guid: a9a783675d59c1549bc5b0a9a42043a5,
-        type: 3}
-      propertyPath: _humanSpriteRenderer
-      value: 
-      objectReference: {fileID: 8784931200876070552}
     - target: {fileID: 6423923554173604088, guid: a9a783675d59c1549bc5b0a9a42043a5,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 6423923554173604088, guid: a9a783675d59c1549bc5b0a9a42043a5,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.28
       objectReference: {fileID: 0}
     - target: {fileID: 6423923554173604088, guid: a9a783675d59c1549bc5b0a9a42043a5,
         type: 3}
@@ -1370,6 +1360,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6423923554173604088, guid: a9a783675d59c1549bc5b0a9a42043a5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 6423923554173604089, guid: a9a783675d59c1549bc5b0a9a42043a5,
         type: 3}
@@ -2327,12 +2322,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!212 &8784931200876070552 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 6423923552788726579, guid: a9a783675d59c1549bc5b0a9a42043a5,
-    type: 3}
-  m_PrefabInstance: {fileID: 159211315394530631}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8873502871836854742
 PrefabInstance:
   m_ObjectHideFlags: 0
