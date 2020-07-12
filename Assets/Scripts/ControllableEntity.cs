@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class ControllableEntity : MonoBehaviour
 {
-    [SerializeField] private CommandsList _commandsList;
-
     private List<DirectionalControl> _directionalControls;
     
     private void Start()
@@ -17,7 +15,9 @@ public class ControllableEntity : MonoBehaviour
     private void FindControls()
     {
         _directionalControls = GetComponents<DirectionalControl>().ToList();
-        _commandsList.InitCommandsList(_directionalControls.Cast<Controls>().ToList());
+        List<Controls> allControls = GetComponents<Controls>().ToList();
+
+        CommandsList.Instance.InitCommandsList(allControls);
     }
 
     private void Update()
@@ -38,16 +38,6 @@ public class ControllableEntity : MonoBehaviour
     }
 
     private void UpdateControls()
-    {
-        
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
     {
         
     }

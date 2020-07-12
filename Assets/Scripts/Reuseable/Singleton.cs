@@ -25,7 +25,12 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
         else
         {
             Instance = newInstance;
-            DontDestroyOnLoad(this);
+            OnSetSingleton();
         }
+    }
+
+    protected virtual void OnSetSingleton()
+    {
+
     }
 }

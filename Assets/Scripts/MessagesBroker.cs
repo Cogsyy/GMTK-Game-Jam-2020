@@ -12,6 +12,11 @@ public class MessagesBroker : Singleton<MessagesBroker>
 {
     private static Dictionary<Message, Delegate> _messageList = new Dictionary<Message, Delegate>();
 
+    protected override void OnSetSingleton()
+    {
+        DontDestroyOnLoad(this);
+    }
+
     public void AddListener(Message message, Action action)
     {
         AddListenerGeneric(message, action);

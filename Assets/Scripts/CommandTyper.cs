@@ -6,10 +6,9 @@ using UnityEngine;
 using System.Text.RegularExpressions;
 using UnityEditor.PackageManager;
 
-public class CommandTyper : MonoBehaviour
+public class CommandTyper : Singleton<CommandTyper>
 {
     [SerializeField] private TMP_InputField _inputField;
-    [SerializeField] private CommandsList _commandsList;
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private AudioClip _lowBeep;
     [SerializeField] private AudioClip _highBeep;
@@ -83,66 +82,49 @@ public class CommandTyper : MonoBehaviour
     {
         if (_blockCommands)
             return;
- 
-        if (_commandsList.CommandExists(command, out Controls commandedControl))
+
+        //need to get the command + the parameters
+        List<string> words = command.Split(' ').ToList();
+        string commandName = words[0];
+        words.RemoveAt(0);
+
+        if (CommandsList.Instance.CommandExists(commandName, out Controls commandedControl))
         {
-            _commandsList.DeactivateAllCommands();
-            bool activatedSuccess = commandedControl.TryActivate();
-            if (activatedSuccess)
+            if (!commandedControl.TryActivate(out string errorMessage, words.ToArray()))
             {
-                _audioSource.PlayOneShot(_highBeep);
-            }
-            else
-            {
-                _inputField.text += "Unable to execute " + command + ", human is resisting, use /reboot " + command + " to regain dominance";
+                _inputField.text += errorMessage;
             }
         }
-        else if (command.ToLower() == "/stop")
-        {
-            _commandsList.DeactivateAllCommands();
-            _audioSource.PlayOneShot(_twoToneBeep);
-        }
-        else if (command.ToLower() == "/reboot")//very temp
-        {
-            RebootCommand();
-        }
-        else if (command.ToLower() == "/fuck")
+        else if (commandName.ToLower() == "/fuck")
         {
             _inputField.text += "Outdated human command, slow monkeys bred in tubes filled with low grade breltonium\n";//<-- LMAO
         }
         else
         {
-            string unknownCommandError = "Error, dumb human does not understad [" + command + "] command\n";
+            string unknownCommandError = "Error, dumb human does not understad [" + commandName + "] command\n";
             _inputField.text += unknownCommandError;
             _audioSource.PlayOneShot(_lowBeep);
         }
     }
 
-    private void RebootCommand()
+    public void DeactivateAllCommands()
     {
-        StartCoroutine(RebootCo());
+        CommandsList.Instance.DeactivateAllCommands();
+        _audioSource.PlayOneShot(_twoToneBeep);
     }
 
-    private IEnumerator RebootCo()
+    public void SetCommandBlocked(bool blocked)
     {
-        _blockCommands = true;
+        _blockCommands = blocked;
+    }
 
-        string rebootingText = "Started human reboot routines...\n";
-        _inputField.text += rebootingText;
+    public void SetCommandText(string text)
+    {
+        _inputField.text += text;
+    }
 
-        float t = 0;
-        float iterations = 4;
-
-        for (int i = 0; i < iterations; i++)
-        {
-            _audioSource.PlayOneShot(_lowBeep);
-            _inputField.text += ((i / iterations) * 100).ToString() + "% complete" + "\n";
-            yield return new WaitForSeconds(1);
-        }
-
-        _audioSource.PlayOneShot(_highBeep);
-        _inputField.text += "Reboot of small human brain successful\n";
-
-        _blockCommands = false;
+    public void PlayCommandSound(AudioClip clip)
+    {
+        _audioSource.PlayOneShot(clip);
     }
 }
