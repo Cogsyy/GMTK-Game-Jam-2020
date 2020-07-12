@@ -76,6 +76,7 @@ public class RebootControl : Controls
         commandToReboot.Deactivate();
         Deactivate();
         commandToReboot.SetHaveControl(true);
+        CommandsList.Instance.RegainControl(commandToReboot);
 
         CommandTyper.Instance.SetCommandBlocked(false);
     }

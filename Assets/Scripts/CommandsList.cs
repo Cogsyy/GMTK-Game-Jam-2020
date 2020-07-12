@@ -142,6 +142,11 @@ public class CommandsList : Singleton<CommandsList>
         _currentDisplayTextCo = null;
     }
 
+    public void RegainControl(Controls controlToRegain)
+    {
+        _freeWill.RegainControl(controlToRegain);
+    }
+
     #region Utility
 
     public bool CommandExists(string name, out Controls command)

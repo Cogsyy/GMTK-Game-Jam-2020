@@ -53,7 +53,7 @@ public class FreeWill
         _commandList.DeactivateRandomAllowedCommand();
     }
 
-    private void RegainControl(Controls command)
+    public void RegainControl(Controls command)
     {
         _controlsTaken--;
     }
