@@ -42,4 +42,9 @@ public class LevelBase : MonoBehaviour
     {
         Debug.Log("You win");
     }
+
+    public virtual bool CanLeave()
+    {
+        return _currentObjective < objectives.Count;
+    }
 }

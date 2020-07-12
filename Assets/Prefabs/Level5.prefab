@@ -8863,7 +8863,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7875292581818816712}
-  - component: {fileID: 1160588261491363230}
   m_Layer: 0
   m_Name: Level5
   m_TagString: Untagged
@@ -8888,27 +8887,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1160588261491363230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7875292581818816715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc43f64bc00a65c4390b5acc6f6d3e2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _player: {fileID: 0}
-  _taskText: {fileID: 0}
-  _objectiveTexts:
-  - turn on lazy human
-  - remove filth from human
-  - praise us glorious overlords
-  _wakeUpControl: {fileID: 0}
-  _shower: {fileID: 7202503539494730376}
-  _praiseControl: {fileID: 0}
 --- !u!1 &8138540858335320554
 GameObject:
   m_ObjectHideFlags: 0

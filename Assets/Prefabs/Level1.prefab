@@ -5133,7 +5133,7 @@ GameObject:
   - component: {fileID: 5305393964967198932}
   - component: {fileID: 4723164150963975765}
   - component: {fileID: 1666846123730614311}
-  - component: {fileID: 9077265908879642420}
+  - component: {fileID: 8958640069228413662}
   m_Layer: 0
   m_Name: OutsideDoor
   m_TagString: Untagged
@@ -5232,7 +5232,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8, y: 6}
   m_EdgeRadius: 0
---- !u!114 &9077265908879642420
+--- !u!114 &8958640069228413662
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5241,7 +5241,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3151168719269796885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc4ef99387106c44e93d5c8b918a2b5f, type: 3}
+  m_Script: {fileID: 11500000, guid: 30749681b45519946ab89cd96514ce3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _interactFx: {fileID: 0}
@@ -5250,6 +5250,7 @@ MonoBehaviour:
   _activeRoom: {fileID: 1008734864388228477}
   _transitionToRoom: {fileID: 0}
   _collider: {fileID: 1666846123730614311}
+  _level: {fileID: 7176723699277027714}
 --- !u!1 &3178370344411102736
 GameObject:
   m_ObjectHideFlags: 0
@@ -5626,9 +5627,13 @@ MonoBehaviour:
   - turn on lazy human
   - remove filth from human
   - praise us glorious overlords
+  - consume foul black fuel (coffee)
+  - leave human habitat
   _wakeUpControl: {fileID: 0}
   _shower: {fileID: 1186569029204389524}
   _praiseControl: {fileID: 0}
+  _coffee: {fileID: 4851698161939893110}
+  _leaveObj: {fileID: 8958640069228413662}
 --- !u!1 &3932001867003245038
 GameObject:
   m_ObjectHideFlags: 0
@@ -9433,6 +9438,7 @@ Transform:
   - {fileID: 6471285118951458210}
   - {fileID: 8235291894137252807}
   - {fileID: 8276356694572882564}
+  - {fileID: 5863537140709914912}
   m_Father: {fileID: 8303016715712562668}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10150,6 +10156,77 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactFx: {fileID: 0}
   _showerDuration: 4
+--- !u!1 &7293855184402327239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5863537140709914912}
+  - component: {fileID: 3287020511562734551}
+  - component: {fileID: 4851698161939893110}
+  m_Layer: 0
+  m_Name: Coffee Machine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5863537140709914912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7293855184402327239}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.657, y: 3.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 952291977507038151}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &3287020511562734551
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7293855184402327239}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.44, y: 4.11}
+  m_EdgeRadius: 0
+--- !u!114 &4851698161939893110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7293855184402327239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c9c44fc9565f74882a3024e766aa2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactFx: {fileID: 0}
 --- !u!1 &7500915047245151900
 GameObject:
   m_ObjectHideFlags: 0
