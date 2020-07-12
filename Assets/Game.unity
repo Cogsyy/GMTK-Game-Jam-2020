@@ -1190,6 +1190,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 735286980}
     m_Modifications:
+    - target: {fileID: 2079456664165139398, guid: 329b696a43b9be84cb1ae3c1c9022904,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2673486775037119722, guid: 329b696a43b9be84cb1ae3c1c9022904,
         type: 3}
       propertyPath: _controllableEntity
@@ -1210,6 +1215,11 @@ PrefabInstance:
       propertyPath: _transitionToRoom
       value: 
       objectReference: {fileID: 1169109521}
+    - target: {fileID: 6248018292458111106, guid: 329b696a43b9be84cb1ae3c1c9022904,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6578303900593382879, guid: 329b696a43b9be84cb1ae3c1c9022904,
         type: 3}
       propertyPath: _controllableEntity
@@ -1545,6 +1555,16 @@ PrefabInstance:
       propertyPath: _transitionSpawnPoint
       value: 
       objectReference: {fileID: 34881791}
+    - target: {fileID: 1008734864388228477, guid: 9de9da28015b5244e9b707d015ee864e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2631325685135311417, guid: 9de9da28015b5244e9b707d015ee864e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3891246879499230516, guid: 9de9da28015b5244e9b707d015ee864e,
         type: 3}
       propertyPath: m_Name
@@ -1608,6 +1628,11 @@ PrefabInstance:
     - target: {fileID: 3891246879499230519, guid: 9de9da28015b5244e9b707d015ee864e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157011190376007225, guid: 9de9da28015b5244e9b707d015ee864e,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9077265908879642420, guid: 9de9da28015b5244e9b707d015ee864e,
@@ -1784,6 +1809,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 735286980}
     m_Modifications:
+    - target: {fileID: 94016693203815555, guid: 21b7e5008dafb5b43b9f3a5f8384ad3a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 357135980630501959, guid: 21b7e5008dafb5b43b9f3a5f8384ad3a,
         type: 3}
       propertyPath: _controllableEntity
@@ -1859,6 +1889,16 @@ PrefabInstance:
       propertyPath: _transitionToRoom
       value: 
       objectReference: {fileID: 1611889829}
+    - target: {fileID: 5413571901184593863, guid: 21b7e5008dafb5b43b9f3a5f8384ad3a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7087321321592801411, guid: 21b7e5008dafb5b43b9f3a5f8384ad3a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8133252018269280141, guid: 21b7e5008dafb5b43b9f3a5f8384ad3a,
         type: 3}
       propertyPath: m_LocalPosition.x
